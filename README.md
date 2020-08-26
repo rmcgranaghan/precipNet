@@ -4,6 +4,8 @@ This software repository contains code to create and interrogate the 'precipNet'
 
 Development and details of precipNet are provided here (link to paper forthcoming). 
 
+Previous work by the International Space Sciences Institute (ISSI) team [https://www.issibern.ch/teams/multigeopartransfer/]("Novel approaches to multiscale geospace particle transfer: Improved understanding and prediction through uncertainty quantification and machine learning") laid the foundation for this work and provides many useful resources. led to many ...
+
 ### Dependencies
 - [OvationPyme](https://github.com/lkilcommons/OvationPyme)
 - [geospacepy](https://github.com/lkilcommons/geospacepy-lite)
@@ -11,4 +13,7 @@ Development and details of precipNet are provided here (link to paper forthcomin
 - TensorFlow version 1.12.0
 
 ### Notebooks and Scripts
-- ...
+- Existing resources from the ISSI team: https://github.com/rmcgranaghan/ISSI_geospaceParticles
+- New resources will appear here as they are prepared
+
+
