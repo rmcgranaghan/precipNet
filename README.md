@@ -9,10 +9,13 @@ Previous work by the International Space Sciences Institute (ISSI) team "[Novel 
 ### Dependencies
 - [OvationPyme](https://github.com/lkilcommons/OvationPyme)
 - [geospacepy](https://github.com/lkilcommons/geospacepy-lite)
-- Keras version 2.2.4
-- TensorFlow version 1.12.0
+- [nasaomnireader](https://github.com/lkilcommons/nasaomnireader)
+- Keras version 2.3.0 ([implementation of the Keras API in TensorFlow](https://www.tensorflow.org/api_docs/python/tf/keras))
+- TensorFlow version 2.2.0
 
 ### Notebooks and Scripts
+- Precipitation_Model_Evaluation_Utilities.ipynb
+    - Functions to calculate auroral boundaries and hemispheric powers given global high-latitude energy flux maps 
 - Existing resources from the ISSI team: https://github.com/rmcgranaghan/ISSI_geospaceParticles
 - New resources will appear here as they are prepared
 
