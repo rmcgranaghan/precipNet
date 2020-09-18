@@ -16,6 +16,8 @@ Previous work by the International Space Sciences Institute (ISSI) team "[Novel 
 ### Notebooks and Scripts
 - Precipitation_Model_Evaluation_Utilities.ipynb
     - Functions to calculate auroral boundaries and hemispheric powers given global high-latitude energy flux maps 
+- time_hist2.py
+    - Function to calculate the time history of OMNI data (solar wind and geomagnetic indices) given data frame 
 - Existing resources from the ISSI team: https://github.com/rmcgranaghan/ISSI_geospaceParticles
 - New resources will appear here as they are prepared
 
