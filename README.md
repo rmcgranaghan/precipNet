@@ -23,4 +23,13 @@ Previous work by the International Space Sciences Institute (ISSI) team "[Novel 
 - Existing resources from the ISSI team: https://github.com/rmcgranaghan/ISSI_geospaceParticles
 - New resources will appear here as they are prepared
 
-
+### Database creation: 
+- The central data file used in the scripts is titled ''ML_DB_subsamp.csv'' and is provided here (DOI to published dataset forthcoming). The steps to create those data were. We do not provide intermediate datasets: 
+    1. Access NASA-provided DMSP data at https://cdaweb.gsfc.nasa.gov/pub/data/dmsp/
+    2. Read CDF files for given satellite (e.g., F-16)
+    3. Collect the following variables at one-second cadence: SC_AACGM_LAT, SC_AACGM_LTIME, ELE_TOTAL_ENERGY_FLUX, ELE_TOTAL_ENERGY_FLUX_STD, ELE_AVG_ENERGY, ELE_AVG_ENERGY_STD, ID_SC
+    4. Sub-sample the variables to one-minute cadence and eliminate any rows for which ELE_TOTAL_ENERGY_FLUX is NaN
+    5. Combine all individual satellites into single yearly files
+    6. For each yearly file, use [nasaomnireader](https://github.com/lkilcommons/nasaomnireader) to obtain solar wind and geomagnetic index data programmatically and [timehist2](https://github.com/rmcgranaghan/ISSI_geospaceParticles/blob/master/time_hist2.py) to calculate the time histories of each parameter. Collate with the DMSP observations and remove rows for which any solar wind or geomagnetic index data are missing. 
+    7. For each row, calculate cyclical time variables (e.g., local time -> sin(LT) and cos(LT))
+    8. Merge all years
