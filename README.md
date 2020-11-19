@@ -36,6 +36,10 @@ Previous work by the International Space Sciences Institute (ISSI) team "[Novel 
     7. For each row, calculate cyclical time variables (e.g., local time -> sin(LT) and cos(LT))
     8. Merge all years
     
+The database for this work is considered ['Artificial Intelligence (AI)-ready'](https://github.com/rmcgranaghan/data_science_tools_and_resources/wiki/Curated-Reference%7CChallenge-Data-Sets) and can serve as a 'challenge data set' for further exploration. It has been published on Zenodo. If used, please cite:
+   
+    McGranaghan, R. M., Ziegler, J., Bloch, T., Camporeale, E., Lynch, K., Owens, M., . . . Skone, S. (2020, November). Dmsp particle precipitation ai-ready data. Zenodo. Retrieved from https://doi.org/10.5281/zenodo.4281122 doi: 10.5281/zenodo.4281122
+    
     
 ### Fruitful paths for ML investigation:
 We believe it helpful to prioritize such next steps based on our experience and to inspire active extension of this work. We envision that those from the ML practitioner community may particularly benefit from the recommendations. Below is a prioritized list of ML investigations with accompanying justification for each recommendation ranking: 
