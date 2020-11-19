@@ -24,7 +24,7 @@ Previous work by the International Space Sciences Institute (ISSI) team "[Novel 
 - New resources will appear here as they are prepared
 
 ### Database creation: 
-- The central data file used in the scripts is titled ''ML_DB_subsamp.csv'' and is provided here (DOI to published dataset forthcoming). The steps to create those data were. We do not provide intermediate datasets: 
+- The central data file used in the scripts is titled ''ML_DB_subsamp.csv'' and is provided here (DOI to published dataset forthcoming). The steps to create those data were (note that we do not provide intermediate datasets): 
     1. Access NASA-provided DMSP data at https://cdaweb.gsfc.nasa.gov/pub/data/dmsp/
     2. Read CDF files for given satellite (e.g., F-16)
     3. Collect the following variables at one-second cadence: SC_AACGM_LAT, SC_AACGM_LTIME, ELE_TOTAL_ENERGY_FLUX, ELE_TOTAL_ENERGY_FLUX_STD, ELE_AVG_ENERGY, ELE_AVG_ENERGY_STD, ID_SC
