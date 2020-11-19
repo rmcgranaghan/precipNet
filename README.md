@@ -20,6 +20,8 @@ Previous work by the International Space Sciences Institute (ISSI) team "[Novel 
     - Function to calculate the standard assessment metrics, the set of which follows guidance for geospace given by [Liemohn et al., 2018](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018SW002067)
 - time_hist2.py
     - Function to calculate the time history of OMNI data (solar wind and geomagnetic indices) given data frame 
+- Final__Data_Read_And_Prepare.ipynb
+    - Sample notebook revealing how to read in the database and prepare it for machine learning investigation
 - Existing resources from the ISSI team: https://github.com/rmcgranaghan/ISSI_geospaceParticles
 - New resources will appear here as they are prepared
 
