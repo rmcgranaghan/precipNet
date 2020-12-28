@@ -2,7 +2,7 @@
 
 This software repository contains code to create and interrogate the 'precipNet' machine learning model developed to specify magnetospheric particle precipitation into the ionosphere as observed by the Defense Meteorological Satellite Program (DMSP) spacecraft SSJ 4/5 observations. 
 
-Development and details of precipNet are provided here (link to paper forthcoming). 
+Development and details of precipNet are provided here ([link to preprint](https://arxiv.org/abs/2011.10117)). 
 
 Previous work by the International Space Sciences Institute (ISSI) team "[Novel approaches to multiscale geospace particle transfer: Improved understanding and prediction through uncertainty quantification and machine learning](https://www.issibern.ch/teams/multigeopartransfer)" laid the foundation for this work and provides many useful resources.
 
