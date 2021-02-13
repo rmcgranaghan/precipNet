@@ -7,7 +7,7 @@ Development and details of precipNet are provided here ([link to preprint](https
 Previous work by the International Space Sciences Institute (ISSI) team "[Novel approaches to multiscale geospace particle transfer: Improved understanding and prediction through uncertainty quantification and machine learning](https://www.issibern.ch/teams/multigeopartransfer)" laid the foundation for this work and provides many useful resources.
 
 ### Dependencies
-- [OvationPyme](https://github.com/lkilcommons/OvationPyme)
+- [OvationPyme](https://github.com/lkilcommons/OvationPyme) (note that for purposes of reproducibility have tagged the specific Github commit of OvationPyme used for the manuscript, which can be obtained [here](https://github.com/lkilcommxons/OvationPyme/releases/v0.1.1)
 - [geospacepy](https://github.com/lkilcommons/geospacepy-lite)
 - [nasaomnireader](https://github.com/lkilcommons/nasaomnireader)
 - Keras version 2.3.0 ([implementation of the Keras API in TensorFlow](https://www.tensorflow.org/api_docs/python/tf/keras))
