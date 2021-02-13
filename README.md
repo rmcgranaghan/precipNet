@@ -42,7 +42,7 @@ Previous work by the International Space Sciences Institute (ISSI) team "[Novel 
     
 The database for this work is considered ['Artificial Intelligence (AI)-ready'](https://github.com/rmcgranaghan/data_science_tools_and_resources/wiki/Curated-Reference%7CChallenge-Data-Sets) and can serve as a 'challenge data set' for further exploration. It has been published on Zenodo. If used, please cite:
    
-    McGranaghan, R. M., Ziegler, J., Bloch, T., Camporeale, E., Lynch, K., Owens, M., . . . Skone, S. (2020, November). Dmsp particle precipitation ai-ready data. Zenodo. Retrieved from https://doi.org/10.5281/zenodo.4281122 doi: 10.5281/zenodo.4281122
+    Ryan M. McGranaghan, Téo Bloch; Jack Ziegler; Spencer Hatch; Enrico Camporeale; Mathew Owens; Kristina Lynch; Jesper Gjerloev; Binzheng Zhang; Susan Skone. (2020). DMSP Particle Precipitation AI-ready Data (Version 1.0.0-alpha) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4281122
     
     
 ### Fruitful paths for ML investigation:
