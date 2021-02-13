@@ -22,6 +22,9 @@ Previous work by the International Space Sciences Institute (ISSI) team "[Novel 
     - Function to calculate the time history of OMNI data (solar wind and geomagnetic indices) given data frame 
 - Final__Data_Read_And_Prepare.ipynb
     - Sample notebook revealing how to read in the database and prepare it for machine learning investigation
+- Final__ML_model_load.ipynb
+    - Notebook that shows how to read in the serialized model (located in 'ml_model' directory) and shows how to make predictions with it
+    - Note that the steps below show how to construct data samples to be used for model predictions
 - Existing resources from the ISSI team: https://github.com/rmcgranaghan/ISSI_geospaceParticles
 - Text files describing the input features: 'inputfeature_labels.txt' (the full set of input features) and 'inputfeature_labels_reduced.txt' (the features after the feature importance process was conducted)
 - New resources will appear here as they are prepared
