@@ -23,6 +23,7 @@ Previous work by the International Space Sciences Institute (ISSI) team "[Novel 
 - Final__Data_Read_And_Prepare.ipynb
     - Sample notebook revealing how to read in the database and prepare it for machine learning investigation
 - Existing resources from the ISSI team: https://github.com/rmcgranaghan/ISSI_geospaceParticles
+- Text files describing the input features: 'inputfeature_labels.txt' (the full set of input features) and 'inputfeature_labels_reduced.txt' (the features after the feature importance process was conducted)
 - New resources will appear here as they are prepared
 
 ### Database creation: 
