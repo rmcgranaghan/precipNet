@@ -27,6 +27,8 @@ Previous work by the International Space Sciences Institute (ISSI) team "[Novel 
     - Note that the steps below show how to construct data samples to be used for model predictions
 - Existing resources from the ISSI team: https://github.com/rmcgranaghan/ISSI_geospaceParticles
 - Text files describing the input features: 'inputfeature_labels.txt' (the full set of input features) and 'inputfeature_labels_reduced.txt' (the features after the feature importance process was conducted)
+- custom_tail_loss.ipynb
+    - a function for a custom tail loss function that can be used as a new objective function with these data
 - New resources will appear here as they are prepared
 
 ### Database creation: 
